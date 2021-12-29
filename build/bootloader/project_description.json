@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/ubuntu/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/ubuntu/Work/ANIOT/ControladorI2C/build/bootloader",
+    "config_file":        "/home/ubuntu/Work/ANIOT/ControladorI2C/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.1.2-142-gef647e941e",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/ubuntu/esp/esp-idf/components/efuse/Kconfig;/home/ubuntu/esp/esp-idf/components/esp32/Kconfig;/home/ubuntu/esp/esp-idf/components/esp_common/Kconfig;/home/ubuntu/esp/esp-idf/components/log/Kconfig;/home/ubuntu/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/ubuntu/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/ubuntu/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/ubuntu/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/ubuntu/esp/esp-idf/components/bootloader", "/home/ubuntu/esp/esp-idf/components/bootloader_support", "/home/ubuntu/esp/esp-idf/components/efuse", "/home/ubuntu/esp/esp-idf/components/esp32", "/home/ubuntu/esp/esp-idf/components/esp_common", "/home/ubuntu/esp/esp-idf/components/esp_rom", "/home/ubuntu/esp/esp-idf/components/esptool_py", "/home/ubuntu/esp/esp-idf/components/log", "/home/ubuntu/esp/esp-idf/components/bootloader/subproject/main", "/home/ubuntu/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/ubuntu/esp/esp-idf/components/partition_table", "/home/ubuntu/esp/esp-idf/components/soc", "/home/ubuntu/esp/esp-idf/components/spi_flash", "/home/ubuntu/esp/esp-idf/components/xtensa", "" ]
+}

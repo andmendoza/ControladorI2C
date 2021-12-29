@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "nuevo",
+			"path": "../../../nuevo"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"i2c.h": "c"
+		}
+	}
+}
